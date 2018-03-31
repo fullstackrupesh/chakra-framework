@@ -189,6 +189,12 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Accounting\AccountingAreaRegistration.cs" />
+    <Compile Include="Areas\Dealing\DealingAreaRegistration.cs" />
+    <Compile Include="Areas\Import\ImportAreaRegistration.cs" />
+    <Compile Include="Areas\Processing\ProcessingAreaRegistration.cs" />
+    <Compile Include="Areas\Reporting\ReportingAreaRegistration.cs" />
+    <Compile Include="Areas\Static\StaticAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -218,6 +224,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Areas\Dealing\Views\web.config" />
+    <Content Include="Areas\Static\Views\web.config" />
+    <Content Include="Areas\Reporting\Views\web.config" />
+    <Content Include="Areas\Processing\Views\web.config" />
+    <Content Include="Areas\Import\Views\web.config" />
+    <Content Include="Areas\Accounting\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -266,6 +278,24 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Accounting\Controllers\" />
+    <Folder Include="Areas\Accounting\Models\" />
+    <Folder Include="Areas\Accounting\Views\Shared\" />
+    <Folder Include="Areas\Dealing\Controllers\" />
+    <Folder Include="Areas\Dealing\Models\" />
+    <Folder Include="Areas\Dealing\Views\Shared\" />
+    <Folder Include="Areas\Import\Controllers\" />
+    <Folder Include="Areas\Import\Models\" />
+    <Folder Include="Areas\Import\Views\Shared\" />
+    <Folder Include="Areas\Processing\Controllers\" />
+    <Folder Include="Areas\Processing\Models\" />
+    <Folder Include="Areas\Processing\Views\Shared\" />
+    <Folder Include="Areas\Reporting\Controllers\" />
+    <Folder Include="Areas\Reporting\Models\" />
+    <Folder Include="Areas\Reporting\Views\Shared\" />
+    <Folder Include="Areas\Static\Controllers\" />
+    <Folder Include="Areas\Static\Models\" />
+    <Folder Include="Areas\Static\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
