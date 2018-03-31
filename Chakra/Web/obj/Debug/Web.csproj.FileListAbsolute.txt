@@ -1,7 +1,4 @@
 H:\csw\chakra-framework\Chakra\Web\bin\ApplicationInsights.config
-H:\csw\chakra-framework\Chakra\Web\bin\Web.dll.config
-H:\csw\chakra-framework\Chakra\Web\bin\Web.dll
-H:\csw\chakra-framework\Chakra\Web\bin\Web.pdb
 H:\csw\chakra-framework\Chakra\Web\bin\roslyn\csc.exe
 H:\csw\chakra-framework\Chakra\Web\bin\roslyn\csc.exe.config
 H:\csw\chakra-framework\Chakra\Web\bin\roslyn\csc.rsp
@@ -116,7 +113,10 @@ H:\csw\chakra-framework\Chakra\Web\bin\Microsoft.AI.Web.xml
 H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
 H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.csproj.CopyComplete
-H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.dll
-H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.pdb
 H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.Migrations.InitialModel.resources
 H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.csproj.GenerateResource.cache
+H:\csw\chakra-framework\Chakra\Web\bin\Chakra.Web.dll.config
+H:\csw\chakra-framework\Chakra\Web\bin\Chakra.Web.dll
+H:\csw\chakra-framework\Chakra\Web\bin\Chakra.Web.pdb
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Chakra.Web.dll
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Chakra.Web.pdb

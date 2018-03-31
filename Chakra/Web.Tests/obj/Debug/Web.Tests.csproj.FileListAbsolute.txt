@@ -2,9 +2,6 @@ H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\ApplicationInsights.config
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Web.Tests.dll.config
-H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Web.Tests.dll
-H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Web.Tests.pdb
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -15,7 +12,6 @@ H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\System.Web.Razor.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\System.Web.WebPages.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
-H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Web.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.Owin.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\System.Web.Optimization.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
@@ -26,8 +22,6 @@ H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.AspNet.Identity.Ent
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\EntityFramework.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
-H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Web.pdb
-H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Web.dll.config
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Newtonsoft.Json.xml
@@ -49,5 +43,11 @@ H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb
 H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Web.Tests.csprojResolveAssemblyReference.cache
 H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Web.Tests.csproj.CoreCompileInputs.cache
 H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Web.Tests.csproj.CopyComplete
-H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Web.Tests.dll
-H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Web.Tests.pdb
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.Tests.dll.config
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.Tests.dll
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.Tests.pdb
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.dll
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.pdb
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.dll.config
+H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Chakra.Web.Tests.dll
+H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Chakra.Web.Tests.pdb
