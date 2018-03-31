@@ -51,3 +51,5 @@ H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.pdb
 H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Web.dll.config
 H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Chakra.Web.Tests.dll
 H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Chakra.Web.Tests.pdb
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Core.dll
+H:\csw\chakra-framework\Chakra\Web.Tests\bin\Debug\Chakra.Core.pdb

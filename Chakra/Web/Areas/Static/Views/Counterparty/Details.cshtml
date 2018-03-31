@@ -1,0 +1,50 @@
+﻿@model Chakra.Web.Areas.Static.Models.Counterparty
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Counterparty</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShortCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClearingCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClearingCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPartyAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPartyAddress)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

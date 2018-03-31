@@ -194,7 +194,9 @@
     <Compile Include="Areas\Import\ImportAreaRegistration.cs" />
     <Compile Include="Areas\Processing\ProcessingAreaRegistration.cs" />
     <Compile Include="Areas\Reporting\ReportingAreaRegistration.cs" />
+    <Compile Include="Areas\Static\Controllers\CounterpartyController.cs" />
     <Compile Include="Areas\Static\Controllers\EntityController.cs" />
+    <Compile Include="Areas\Static\Models\Counterparty.cs" />
     <Compile Include="Areas\Static\Models\Entity.cs" />
     <Compile Include="Areas\Static\StaticAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -210,6 +212,10 @@
     <Compile Include="Migrations\201803311815524_EntityAndAddressModelAdded.cs" />
     <Compile Include="Migrations\201803311815524_EntityAndAddressModelAdded.Designer.cs">
       <DependentUpon>201803311815524_EntityAndAddressModelAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803311920583_CounterpartyModelAdded.cs" />
+    <Compile Include="Migrations\201803311920583_CounterpartyModelAdded.Designer.cs">
+      <DependentUpon>201803311920583_CounterpartyModelAdded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -243,6 +249,11 @@
     <Content Include="Areas\Static\Views\Entity\Details.cshtml" />
     <Content Include="Areas\Static\Views\Entity\Edit.cshtml" />
     <Content Include="Areas\Static\Views\Entity\Index.cshtml" />
+    <Content Include="Areas\Static\Views\Counterparty\Create.cshtml" />
+    <Content Include="Areas\Static\Views\Counterparty\Delete.cshtml" />
+    <Content Include="Areas\Static\Views\Counterparty\Details.cshtml" />
+    <Content Include="Areas\Static\Views\Counterparty\Edit.cshtml" />
+    <Content Include="Areas\Static\Views\Counterparty\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -326,6 +337,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803311815524_EntityAndAddressModelAdded.resx">
       <DependentUpon>201803311815524_EntityAndAddressModelAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803311920583_CounterpartyModelAdded.resx">
+      <DependentUpon>201803311920583_CounterpartyModelAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
