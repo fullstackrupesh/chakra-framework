@@ -120,3 +120,6 @@ H:\csw\chakra-framework\Chakra\Web\bin\Chakra.Web.dll
 H:\csw\chakra-framework\Chakra\Web\bin\Chakra.Web.pdb
 H:\csw\chakra-framework\Chakra\Web\obj\Debug\Chakra.Web.dll
 H:\csw\chakra-framework\Chakra\Web\obj\Debug\Chakra.Web.pdb
+H:\csw\chakra-framework\Chakra\Web\bin\Chakra.Core.dll
+H:\csw\chakra-framework\Chakra\Web\bin\Chakra.Core.pdb
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.Migrations.EntityAndAddressModelAdded.resources

@@ -29,5 +29,7 @@ namespace Web.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Chakra.Web.Areas.Static.Models.Entity> Entities { get; set; }
     }
 }

@@ -12,12 +12,17 @@ namespace Chakra.Core.Models
     {
         [StringLength(255)]
         public string Street { get; set; }
+
         [StringLength(50)]
         public string City { get; set; }
+
         [StringLength(50)]
         public string State { get; set; }
+
+        [Required]
         [StringLength(50)]
         public string Country { get; set; }
+
         [StringLength(10)]
         public string Zip { get; set; }
     }

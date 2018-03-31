@@ -99,6 +99,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{a22de536-bdfc-403d-9be9-fce1812ac067}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Web\Web.csproj">
       <Project>{8C478399-8BE7-4CBE-9B0D-C1CDC841D052}</Project>
       <Name>Web</Name>

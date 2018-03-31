@@ -194,6 +194,8 @@
     <Compile Include="Areas\Import\ImportAreaRegistration.cs" />
     <Compile Include="Areas\Processing\ProcessingAreaRegistration.cs" />
     <Compile Include="Areas\Reporting\ReportingAreaRegistration.cs" />
+    <Compile Include="Areas\Static\Controllers\EntityController.cs" />
+    <Compile Include="Areas\Static\Models\Entity.cs" />
     <Compile Include="Areas\Static\StaticAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -204,6 +206,10 @@
     <Compile Include="Migrations\201803311254441_InitialModel.cs" />
     <Compile Include="Migrations\201803311254441_InitialModel.Designer.cs">
       <DependentUpon>201803311254441_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803311815524_EntityAndAddressModelAdded.cs" />
+    <Compile Include="Migrations\201803311815524_EntityAndAddressModelAdded.Designer.cs">
+      <DependentUpon>201803311815524_EntityAndAddressModelAdded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -230,6 +236,13 @@
     <Content Include="Areas\Processing\Views\web.config" />
     <Content Include="Areas\Import\Views\web.config" />
     <Content Include="Areas\Accounting\Views\web.config" />
+    <Content Include="Areas\Static\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Static\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Static\Views\Entity\Create.cshtml" />
+    <Content Include="Areas\Static\Views\Entity\Delete.cshtml" />
+    <Content Include="Areas\Static\Views\Entity\Details.cshtml" />
+    <Content Include="Areas\Static\Views\Entity\Edit.cshtml" />
+    <Content Include="Areas\Static\Views\Entity\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -293,9 +306,6 @@
     <Folder Include="Areas\Reporting\Controllers\" />
     <Folder Include="Areas\Reporting\Models\" />
     <Folder Include="Areas\Reporting\Views\Shared\" />
-    <Folder Include="Areas\Static\Controllers\" />
-    <Folder Include="Areas\Static\Models\" />
-    <Folder Include="Areas\Static\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -314,6 +324,15 @@
     <EmbeddedResource Include="Migrations\201803311254441_InitialModel.resx">
       <DependentUpon>201803311254441_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803311815524_EntityAndAddressModelAdded.resx">
+      <DependentUpon>201803311815524_EntityAndAddressModelAdded.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{a22de536-bdfc-403d-9be9-fce1812ac067}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
