@@ -44,5 +44,15 @@
     <Compile Include="Models\Address.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Data\Core.Data.csproj">
+      <Project>{5090f58d-65ac-4f91-ab55-5d9b35552b1c}</Project>
+      <Name>Core.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.Interfaces\Core.Interfaces.csproj">
+      <Project>{a7867fcc-44c4-4feb-8bde-76f35da9c705}</Project>
+      <Name>Core.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

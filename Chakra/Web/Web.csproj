@@ -317,6 +317,7 @@
     <Folder Include="Areas\Reporting\Controllers\" />
     <Folder Include="Areas\Reporting\Models\" />
     <Folder Include="Areas\Reporting\Views\Shared\" />
+    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -343,6 +344,14 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core.Data\Core.Data.csproj">
+      <Project>{5090f58d-65ac-4f91-ab55-5d9b35552b1c}</Project>
+      <Name>Core.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.Interfaces\Core.Interfaces.csproj">
+      <Project>{a7867fcc-44c4-4feb-8bde-76f35da9c705}</Project>
+      <Name>Core.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{a22de536-bdfc-403d-9be9-fce1812ac067}</Project>
       <Name>Core</Name>
