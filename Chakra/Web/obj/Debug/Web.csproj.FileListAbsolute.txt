@@ -1,0 +1,6 @@
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.Migrations.InitialModel.resources
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.Migrations.EntityAndAddressModelAdded.resources
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.Migrations.CounterpartyModelAdded.resources
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.csproj.GenerateResource.cache
+H:\csw\chakra-framework\Chakra\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache

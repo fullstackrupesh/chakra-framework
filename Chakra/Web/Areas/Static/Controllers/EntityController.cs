@@ -14,6 +14,7 @@ namespace Chakra.Web.Areas.Static.Controllers
 {
     public class EntityController : Controller
     {
+
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Static/Entity

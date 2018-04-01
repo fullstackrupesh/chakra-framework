@@ -1,0 +1,2 @@
+H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Web.Tests.csprojResolveAssemblyReference.cache
+H:\csw\chakra-framework\Chakra\Web.Tests\obj\Debug\Web.Tests.csproj.CoreCompileInputs.cache

@@ -8,11 +8,12 @@ using System.Web.Mvc;
 
 namespace Chakra.Core
 {
-    public class ChakraController<T, TId> : Controller
-        where T : class, new()
-        where TId : struct
+    public class ChakraController<BusinessObject, DataObject, Repository> : Controller
+        where BusinessObject : class, IBusinessObject
+        where DataObject : class, IDataObject
+        where Repository : class, IRepository
+
     {
-        protected IChakraRepository<T, TId> Repository { get; set; }
 
         public ChakraController()
         {
