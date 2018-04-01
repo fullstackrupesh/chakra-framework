@@ -1,9 +1,0 @@
-H:\csw\chakra-framework\Chakra\Core.Data\bin\Debug\Chakra.Core.Data.dll
-H:\csw\chakra-framework\Chakra\Core.Data\bin\Debug\Chakra.Core.Data.pdb
-H:\csw\chakra-framework\Chakra\Core.Data\bin\Debug\Chakra.Core.Interfaces.dll
-H:\csw\chakra-framework\Chakra\Core.Data\bin\Debug\Chakra.Core.Interfaces.pdb
-H:\csw\chakra-framework\Chakra\Core.Data\obj\Debug\Core.Data.csprojResolveAssemblyReference.cache
-H:\csw\chakra-framework\Chakra\Core.Data\obj\Debug\Core.Data.csproj.CoreCompileInputs.cache
-H:\csw\chakra-framework\Chakra\Core.Data\obj\Debug\Core.Data.csproj.CopyComplete
-H:\csw\chakra-framework\Chakra\Core.Data\obj\Debug\Chakra.Core.Data.dll
-H:\csw\chakra-framework\Chakra\Core.Data\obj\Debug\Chakra.Core.Data.pdb

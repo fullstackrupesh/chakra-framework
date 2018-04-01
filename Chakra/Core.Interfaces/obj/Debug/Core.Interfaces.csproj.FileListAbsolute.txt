@@ -1,6 +1,0 @@
-H:\csw\chakra-framework\Chakra\Core.Interfaces\bin\Debug\Chakra.Core.Interfaces.dll
-H:\csw\chakra-framework\Chakra\Core.Interfaces\bin\Debug\Chakra.Core.Interfaces.pdb
-H:\csw\chakra-framework\Chakra\Core.Interfaces\obj\Debug\Core.Interfaces.csprojResolveAssemblyReference.cache
-H:\csw\chakra-framework\Chakra\Core.Interfaces\obj\Debug\Core.Interfaces.csproj.CoreCompileInputs.cache
-H:\csw\chakra-framework\Chakra\Core.Interfaces\obj\Debug\Chakra.Core.Interfaces.dll
-H:\csw\chakra-framework\Chakra\Core.Interfaces\obj\Debug\Chakra.Core.Interfaces.pdb
