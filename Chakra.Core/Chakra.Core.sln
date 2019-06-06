@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra.Core.Web", "Chakra.Core.Web\Chakra.Core.Web.csproj", "{914823D8-A93C-40CC-9816-316567B4A41A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chakra.framework.common", "chakra.framework.common", "{77E3C1C3-BA94-4B64-B923-19207A1DAA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra.Framework.Common.Contracts", "Framework.Common\Chakra.Framework.Common.Contracts\Chakra.Framework.Common.Contracts.csproj", "{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{914823D8-A93C-40CC-9816-316567B4A41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{914823D8-A93C-40CC-9816-316567B4A41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{914823D8-A93C-40CC-9816-316567B4A41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981} = {77E3C1C3-BA94-4B64-B923-19207A1DAA20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D860B056-4BFB-414E-BE38-C3EDA12BE182}
