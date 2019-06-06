@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chakra.framework.common", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra.Framework.Common.Contracts", "Framework.Common\Chakra.Framework.Common.Contracts\Chakra.Framework.Common.Contracts.csproj", "{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chakra.Framework.Common.Model", "Framework.Common\Chakra.Framework.Common.Model\Chakra.Framework.Common.Model.csproj", "{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981} = {77E3C1C3-BA94-4B64-B923-19207A1DAA20}
+		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB} = {77E3C1C3-BA94-4B64-B923-19207A1DAA20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D860B056-4BFB-414E-BE38-C3EDA12BE182}
