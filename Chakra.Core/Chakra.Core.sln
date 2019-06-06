@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra.Core.Web", "Chakra.Core.Web\Chakra.Core.Web.csproj", "{914823D8-A93C-40CC-9816-316567B4A41A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{914823D8-A93C-40CC-9816-316567B4A41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914823D8-A93C-40CC-9816-316567B4A41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914823D8-A93C-40CC-9816-316567B4A41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914823D8-A93C-40CC-9816-316567B4A41A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D860B056-4BFB-414E-BE38-C3EDA12BE182}
+	EndGlobalSection
+EndGlobal
