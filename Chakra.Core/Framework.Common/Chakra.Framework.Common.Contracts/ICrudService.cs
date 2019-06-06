@@ -7,14 +7,14 @@ namespace Chakra.Framework.Common.Contracts
 {
     public interface ICrudService<DbModel>
     {
-        void Add(DbModel model);
+        void AddAsync(DbModel model);
 
-        IQueryable<DbModel> GetAll();
+        IQueryable<DbModel> GetAllAsync();
 
-        DbModel Get(int Id);
+        DbModel GetAsync(int Id);
 
-        void Update(DbModel model);
+        void UpdateAsync(DbModel model);
 
-        void Delete(int Id);        
+        void DeleteAsync(int Id);            
     }
 }

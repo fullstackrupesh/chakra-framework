@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra.Framework.Common.Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chakra.Framework.Common.Model", "Framework.Common\Chakra.Framework.Common.Model\Chakra.Framework.Common.Model.csproj", "{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra.Framework.Common.Services", "Framework.Common\Chakra.Framework.Common.Services\Chakra.Framework.Common.Services.csproj", "{0CC0DC6D-17B2-4833-8DDE-0607CF522418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra.Framework.Common.Web.Controllers", "Framework.Common\Chakra.Framework.Common.Web.Controllers\Chakra.Framework.Common.Web.Controllers.csproj", "{ADA38E26-2278-4914-9087-22FC7B40C111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC0DC6D-17B2-4833-8DDE-0607CF522418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC0DC6D-17B2-4833-8DDE-0607CF522418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC0DC6D-17B2-4833-8DDE-0607CF522418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC0DC6D-17B2-4833-8DDE-0607CF522418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA38E26-2278-4914-9087-22FC7B40C111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA38E26-2278-4914-9087-22FC7B40C111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA38E26-2278-4914-9087-22FC7B40C111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA38E26-2278-4914-9087-22FC7B40C111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4DE47C0E-7E34-4427-BC1B-3CAF31EF9981} = {77E3C1C3-BA94-4B64-B923-19207A1DAA20}
 		{3CA4206C-8530-4066-A0B0-5F90DDD0AABB} = {77E3C1C3-BA94-4B64-B923-19207A1DAA20}
+		{0CC0DC6D-17B2-4833-8DDE-0607CF522418} = {77E3C1C3-BA94-4B64-B923-19207A1DAA20}
+		{ADA38E26-2278-4914-9087-22FC7B40C111} = {77E3C1C3-BA94-4B64-B923-19207A1DAA20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D860B056-4BFB-414E-BE38-C3EDA12BE182}

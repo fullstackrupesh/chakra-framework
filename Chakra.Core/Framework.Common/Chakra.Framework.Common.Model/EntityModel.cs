@@ -2,7 +2,7 @@
 
 namespace Chakra.Framework.Common.Model
 {
-    public class Model
+    public class EntityModel
     {
         public virtual int Id { get; set; }
     }

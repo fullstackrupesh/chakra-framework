@@ -8,3 +8,9 @@
 /Chakra.Core/Chakra.Core.Web/obj
 /Chakra.Core/Framework.Common/Chakra.Framework.Common.Contracts/obj
 /Chakra.Core/Framework.Common/Chakra.Framework.Common.Model/obj
+/Chakra.Core/Chakra.Core.Web/bin/Debug/netcoreapp2.2
+/Chakra.Core/Framework.Common/Chakra.Framework.Common.Contracts/bin/Debug/netcoreapp2.2
+/Chakra.Core/Framework.Common/Chakra.Framework.Common.Model/bin/Debug/netcoreapp2.2
+/Chakra.Core/Framework.Common/Chakra.Framework.Common.Services/bin/Debug/netcoreapp2.2
+/Chakra.Core/Framework.Common/Chakra.Framework.Common.Services/obj
+/Chakra.Core/Framework.Common/Chakra.Framework.Common.Web.Controllers/obj
