@@ -16,3 +16,12 @@
 /Chakra.Core/Framework.Common/Chakra.Framework.Common.Services/obj
 /Chakra.Core/Framework.Common/Chakra.Framework.Common.Web.Controllers/obj/Debug/netcoreapp2.2
 /Chakra.Core/Framework.Common/Chakra.Framework.Common.Web.Controllers/obj
+/core.framework/core/core.common/obj
+/core.framework/core/core.contracts/obj
+/core.framework/core/core.controllers/obj
+/core.framework/core/core.model/obj
+/core.framework/core/core.persistence/obj
+/core.framework/core/core.repositories/obj
+/core.framework/core.masters/core.masters.model/obj
+/core.framework/core.web/obj
+/core.framework/web/core.web.ui/obj
