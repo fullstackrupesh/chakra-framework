@@ -1,0 +1,10 @@
+H:\techchakra\core.framework\core\core.model\obj\Debug\netcoreapp2.2\core.model.csprojAssemblyReference.cache
+H:\techchakra\core.framework\core\core.model\obj\Debug\netcoreapp2.2\core.model.csproj.CoreCompileInputs.cache
+H:\techchakra\core.framework\core\core.model\obj\Debug\netcoreapp2.2\core.model.AssemblyInfoInputs.cache
+H:\techchakra\core.framework\core\core.model\obj\Debug\netcoreapp2.2\core.model.AssemblyInfo.cs
+C:\chakra\application\web\netcoreapp2.2\core.model.deps.json
+C:\chakra\application\web\netcoreapp2.2\core.model.dll
+H:\techchakra\core.framework\core\core.model\obj\Debug\netcoreapp2.2\core.model.csproj.CopyComplete
+C:\chakra\application\web\netcoreapp2.2\core.model.pdb
+H:\techchakra\core.framework\core\core.model\obj\Debug\netcoreapp2.2\core.model.dll
+H:\techchakra\core.framework\core\core.model\obj\Debug\netcoreapp2.2\core.model.pdb

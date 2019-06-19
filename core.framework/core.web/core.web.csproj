@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\chakra\application\web</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190611143712_CreateInitialModel.cs" />
+    <Compile Remove="Migrations\20190611143712_CreateInitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20190612053709_CreateCategory.cs" />
+    <Compile Remove="Migrations\20190612053709_CreateCategory.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core.masters\core.masters.model\core.masters.model.csproj" />
+    <ProjectReference Include="..\core\core.model\core.model.csproj" />
+    <ProjectReference Include="..\core\core.persistence\core.persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\masters\Controllers\" />
+    <Folder Include="Areas\masters\Data\" />
+    <Folder Include="Areas\masters\ViewModels\" />
+    <Folder Include="Areas\masters\Views\" />
+  </ItemGroup>
+
+</Project>

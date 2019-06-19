@@ -1,0 +1,10 @@
+C:\chakra\application\web\netcoreapp2.2\core.contracts.deps.json
+C:\chakra\application\web\netcoreapp2.2\core.contracts.dll
+C:\chakra\application\web\netcoreapp2.2\core.contracts.pdb
+H:\techchakra\core.framework\core\core.contracts\obj\Debug\netcoreapp2.2\core.contracts.csprojAssemblyReference.cache
+H:\techchakra\core.framework\core\core.contracts\obj\Debug\netcoreapp2.2\core.contracts.csproj.CoreCompileInputs.cache
+H:\techchakra\core.framework\core\core.contracts\obj\Debug\netcoreapp2.2\core.contracts.AssemblyInfoInputs.cache
+H:\techchakra\core.framework\core\core.contracts\obj\Debug\netcoreapp2.2\core.contracts.AssemblyInfo.cs
+H:\techchakra\core.framework\core\core.contracts\obj\Debug\netcoreapp2.2\core.contracts.csproj.CopyComplete
+H:\techchakra\core.framework\core\core.contracts\obj\Debug\netcoreapp2.2\core.contracts.dll
+H:\techchakra\core.framework\core\core.contracts\obj\Debug\netcoreapp2.2\core.contracts.pdb
