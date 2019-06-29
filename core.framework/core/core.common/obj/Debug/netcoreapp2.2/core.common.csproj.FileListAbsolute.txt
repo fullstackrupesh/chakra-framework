@@ -1,9 +1,0 @@
-C:\chakra\application\web\netcoreapp2.2\core.common.deps.json
-C:\chakra\application\web\netcoreapp2.2\core.common.dll
-C:\chakra\application\web\netcoreapp2.2\core.common.pdb
-H:\techchakra\core.framework\core\core.common\obj\Debug\netcoreapp2.2\core.common.csproj.CoreCompileInputs.cache
-H:\techchakra\core.framework\core\core.common\obj\Debug\netcoreapp2.2\core.common.AssemblyInfoInputs.cache
-H:\techchakra\core.framework\core\core.common\obj\Debug\netcoreapp2.2\core.common.AssemblyInfo.cs
-H:\techchakra\core.framework\core\core.common\obj\Debug\netcoreapp2.2\core.common.dll
-H:\techchakra\core.framework\core\core.common\obj\Debug\netcoreapp2.2\core.common.pdb
-H:\techchakra\core.framework\core\core.common\obj\Debug\netcoreapp2.2\core.common.csprojAssemblyReference.cache
