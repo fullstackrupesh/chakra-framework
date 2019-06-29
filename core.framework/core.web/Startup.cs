@@ -31,19 +31,25 @@ namespace core.web
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+                app.UseHsts();
+            }
 
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseCookiePolicy();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Currency}/{action=Index}/{id?}");
 
                 routes.MapRoute(
                     name: "areas",
-                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                    template: "{area:exists}/{controller=Currency}/{action=Index}/{id?}");
 
                 routes.MapRoute(
                   name: "api",

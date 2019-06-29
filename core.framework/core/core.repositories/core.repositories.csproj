@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\chakra\application\web</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core.contracts\core.contracts.csproj" />
+    <ProjectReference Include="..\core.persistence\core.persistence.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,7 +10,7 @@ namespace core.web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public abstract class BaseController<TModel> : ControllerBase 
+    public abstract class BaseController<TModel> : Controller
       where TModel: class, new()
     {
       private readonly ApplicationDbContext dbContext;

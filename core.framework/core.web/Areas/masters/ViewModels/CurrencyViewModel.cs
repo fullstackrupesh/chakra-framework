@@ -1,12 +1,11 @@
-﻿using core.model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace core.web.masters.Models
+namespace core.web.masters.ViewModels
 {
-    public class Currency : DbModel
+    public class CurrencyViewModel
     {
         public string Ccy { get; set; }
         public string Name { get; set; }

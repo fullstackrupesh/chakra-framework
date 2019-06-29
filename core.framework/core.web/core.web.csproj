@@ -26,12 +26,10 @@
     <ProjectReference Include="..\core.masters\core.masters.model\core.masters.model.csproj" />
     <ProjectReference Include="..\core\core.model\core.model.csproj" />
     <ProjectReference Include="..\core\core.persistence\core.persistence.csproj" />
+    <ProjectReference Include="..\core\core.repositories\core.repositories.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\masters\Controllers\" />
-    <Folder Include="Areas\masters\Data\" />
-    <Folder Include="Areas\masters\ViewModels\" />
     <Folder Include="Areas\masters\Views\" />
   </ItemGroup>
 
