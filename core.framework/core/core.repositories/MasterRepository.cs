@@ -11,7 +11,7 @@ namespace core.repositories
     {
         private readonly ApplicationDbContext context;
 
-        public MasterRepository(ApplicationDbContext dbContext) : base()
+        public MasterRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
             context = dbContext;
         }

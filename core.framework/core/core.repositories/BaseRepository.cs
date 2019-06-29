@@ -1,6 +1,7 @@
 ﻿using core.common.enums;
 using core.contracts;
 using core.contracts.repositories;
+using core.persistence;
 using System;
 
 namespace core.repositories
@@ -8,9 +9,11 @@ namespace core.repositories
     public class BaseRepository<TDbModel> : IBaseRepository<TDbModel>
         where TDbModel : class, IDbModel, new()
     {
-        public BaseRepository()
-        {
+        private ApplicationDbContext context;
 
+        public BaseRepository(ApplicationDbContext dbContext)
+        {
+            context = dbContext;
         }
 
         public virtual bool CanPerform(ModuleAction action)
@@ -35,7 +38,7 @@ namespace core.repositories
         }
         
         public bool CanGet()
-        {
+        {            
             return true;
         }
 
