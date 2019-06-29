@@ -25,3 +25,6 @@
 /core.framework/core.masters/core.masters.model/obj
 /core.framework/core.web/obj
 /core.framework/web/core.web.ui/obj
+/core.framework/.vs
+/core.framework/.vs/core.framework/v15
+/core.framework/.vs/core.framework/v15/Server/sqlite3
